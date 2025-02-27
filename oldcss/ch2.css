@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.item{
+    background-color: darkblue;
+    color: white;
+}
+.main{
+    color: red;
+}
+.bg{
+    height: 1355px;
+    width: 355px;
+    /* background-color: red; */
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    background-size: 355px 355px;
+    border: 5px solid black;
+    background-attachment: scroll;
+}

@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.image{
+    height: 1355px;
+    width: 1350px;
+    background-color: yellowgreen;
+    background-image: url(image.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: top;
+    background-attachment: fixed;
+}

@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: red;
+    border : 2px solid black;
+}
+.content{
+    background-color: yellow;
+    height: 600px;
+    margin: 12px;
+    padding-top: 250px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+}
+footer{
+    background-color: aqua;
+    text-align: center;
+    margin: 5px;
+}

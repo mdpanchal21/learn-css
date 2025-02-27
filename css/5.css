@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 8vh;
+    width: 100vw;
+    background-color: red;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.list li a{
+    color: white;
+    text-decoration: none;
+    padding: 25px;
+}
+.list li{
+    display: inline;
+    font-size: 2vw;
+}
+.container{
+    margin: auto;
+    min-height: 50vh;
+    width: 45vw;
+    background-color: aqua;
+    position: relative;
+    z-index: 0;
+}
+li{
+    list-style: decimal inside url(image.jpg);
+}

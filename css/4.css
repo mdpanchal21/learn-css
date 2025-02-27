@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    height: 75px;
+    background-color: black;
+    
+}
+ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 39px;
+    font-size: 20px;
+}
+ul li a{
+    color: rgb(139, 114, 39);
+    text-decoration: none;
+}
+.left{
+    height: 90vh;
+    width: 50%;
+    background-color: red;
+    display: inline-block;
+}
+.right{
+    height: 90vh;
+    width: 50%;
+    background-color: green;
+    display: inline-block;
+}
+footer{
+    background-color: black;
+    color: white;
+    font-family: "Rubik Vinyl", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+}

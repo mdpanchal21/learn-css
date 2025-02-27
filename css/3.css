@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height:55px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+.contain{
+    background-color: purple;
+    height: 89vh;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+footer{
+    background-color: cadetblue;
+    text-align: center;
+    border: 1px solid chartreuse;
+
+}

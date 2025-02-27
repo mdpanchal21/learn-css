@@ -1,0 +1,18 @@
+.box1{
+    height:252px;
+    width: 231px;
+    background-color: red;
+    /* display: inline; */
+    text-decoration: underline;
+    color: white;
+    text-transform: capitalize;
+    line-height: 28.5px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.box2{
+    height:252px;
+    width: 231px;
+    background-color: yellow;
+    display: inline;
+    /* margin-top: -20px; */
+}

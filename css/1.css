@@ -1,0 +1,7 @@
+.red{
+    background-color: red;
+    color: white;
+}
+.blue{
+    background-color: hsl(100, 20%, 25%) ;
+}

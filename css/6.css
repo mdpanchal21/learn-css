@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    height: 55px;
+    color: white;
+}
+.list li{
+    display: inline-block;
+    padding: 15px 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    list-style:  none;
+    display: inline-block;
+    padding: 15px 45px;
+}
+.image a{
+    color: white;
+}
+.container{
+    height: 40vh;
+    width: 100vw;
+    background-image: url(image.jpg);
+    background-repeat: repeat-x;
+   
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    height:175px;
+    width: 175px;
+    background-color: red;
+}
+.box2{
+    height:175px;
+    width: 175px;
+    background-color: rgb(13, 230, 146);
+}
+.box3{
+    height:175px;
+    width: 175px;
+    background-color: rgb(235, 22, 196);
+}

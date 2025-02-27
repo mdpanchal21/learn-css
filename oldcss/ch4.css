@@ -1,0 +1,43 @@
+*{
+    margin:0;
+    padding: 0;
+}
+nav{
+    background-color: black;
+    height: 70px;
+}
+.container1{
+        background-color: red;    
+        height: 640px;
+        width:50%;
+        display: inline-block;
+}
+.container2{
+    background-color: green;
+    height: 640px;
+    width: 50%;
+    display: inline-block;
+    margin-bottom: 0vh;
+}
+footer{
+    background-color: aqua;
+    height: 45px;
+    text-transform: uppercase;
+}
+.para{
+    font-family: "Rubik Vinyl", serif;
+    text-align: center;
+    color: black;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    margin-left: 45px;
+    font-size: 25px;
+
+}

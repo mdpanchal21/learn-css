@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-size: 1vw;
+}
+
+nav {
+    background-color: red;
+    height: 25px;
+    padding: 15px;
+    color: white;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+}
+
+.para {
+    background-color: yellow;
+    height: 750px;
+}
+
+.footer {
+    background-color: blue;
+    color: white;
+    height: 35px;
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+}
+
+.chat {
+    background-color: aqua;
+    height: 55px;
+    width: 125px;
+    margin-left: 91vw;
+    margin-top: 43vw;
+    display: flex;
+    position: sticky;
+    bottom: 5px;
+}

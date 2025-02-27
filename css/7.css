@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    height: 8vh;
+}
+ul{
+    display: grid;
+    grid-template-columns: 65px 109px 118px;;
+}
+li{
+    list-style: none;
+    padding: 15px 25px;
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+
+}
+.box1{
+    margin-top: 100px;
+    height: 25vh;
+    width: 25vw;
+    background-color: red;
+}
+.box2{
+    margin-top: 100px;
+    height: 25vh;
+    width: 25vw;
+    background-color: rgb(46, 134, 71);
+}
