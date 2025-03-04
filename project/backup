@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/project/css/style.css">
+    <link rel="stylesheet" href="/project/css/text.css">
+    <title>E commerce</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="/project/image/logo.png" alt="nologo">
+            </div>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            
+        </div>
+    </main>
+    <footer class="flex-all-align">
+            <p>Copy right &copy; Mayank</p>
+    </footer>
+</body>
+</html>
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --main-bg-color: #2874f0;
+  }
+  
+header{
+    background-color: var(--main-bg-color);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 75px;
+    padding: 0 32px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    list-style: none;
+    height: 8vh;
+}
+nav ul li a {
+    color: white;
+    text-decoration:none ;
+}
+nav ul li {
+    padding: 0 23px;
+}
+.container{
+    min-height: calc(100vh - 8vh - 8vh);
+}
+footer{
+    height: 8vh;
+    background-color: var(--main-bg-color);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+
+}
+
+
+
+
+.flex-all-align{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
