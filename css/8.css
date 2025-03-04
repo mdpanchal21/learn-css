@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+}
+li{
+    display: inline;
+    list-style: none;
+    padding: 0px 25px;
+}
+main{
+    height: 97vh;
+    width: 100vw;
+    background-color: rgb(81, 88, 91);
+}
+.progress{
+    height : .5vh;
+    width: 100vw;
+    background-color: rgb(223, 106, 106);
+    /* animation-name: ProgressBar;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out; */
+    /* animation-iteration-count: infinite; */
+    /* animation-direction: normal; */
+    animation: ProgressBar .5s linear, Hideen 0s linear .5s forwards;
+}
+@keyframes ProgressBar {
+    0%{
+        width: 0vw;
+    }
+    70%{
+        width: 80vw;
+    }
+    100%{
+        width: 100vw;
+    }
+}
+@keyframes Hideen {
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}

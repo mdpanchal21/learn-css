@@ -1,0 +1,15 @@
+body{
+    background-color: red;
+}
+@keyframes Rotating {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+    
+}
+img{
+    animation: Rotating 5s linear infinite;
+}
