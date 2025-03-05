@@ -1,71 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
 }
+
 :root {
     --main-bg-color: #2874f0;
-  }
-  
-header{
+}
+
+header {
     background-color: var(--main-bg-color);
     font-family: "Lato", sans-serif;
+    position: sticky;
+    top: 0;
 }
-nav{
+
+nav {
     display: flex;
 }
-.logo{
+
+.logo {
     display: flex;
     align-items: center;
 }
-.logo img{
+
+.logo img {
     width: 75px;
     padding: 0 25px;
 }
-nav ul{
+
+nav ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 8vh;
 }
+
 nav ul li a {
     color: white;
-    text-decoration:none ;
+    text-decoration: none;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
     font-weight: bolder;
 }
+
 nav ul li {
     list-style: none;
     padding: 0 23px;
 }
-.search{
+
+.search {
     display: flex;
     align-items: center;
 }
-.search input{
-    width: 363px;
+
+.search input {
+    width: 24vw;
     height: 32px;
-    margin: 0 34px;
+    margin: 0 22px 0 34px;
     border-radius: 5px;
 }
-.search input::placeholder{
+
+.search input::placeholder {
     color: grey;
     padding: 0 20px;
     font-size: 14px;
     font-family: "Lato", sans-serif;
 }
+
 .search input:focus::placeholder {
     /* color: transparent;  */
     /* it is use whilw we click on search box and need to hidden placeholder */
     visibility: hidden;
 }
-.container{
+
+.search button {
+    font-family: "Lato", sans-serif;/
+}
+
+.container {
     min-height: calc(100vh - 8vh - 8vh);
 }
-footer{
+.slider{
+    display: flex;
+    justify-content: center;
+}
+.slider img{
+   margin: 15px auto;
+    height: 355px;
+    width: 75vw;
+}
+.cards{
+    max-width: 90vw;
+    margin: auto;
+}
+.cards h2{
+    font-family: "Lato", sans-serif;
+}
+.card-item{
+    width: 13vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 16px;
+}
+.card-item img{
+    width: 151px;
+}
+.cards-item-list{
+    display: flex;
+}
+footer {
     height: 8vh;
     background-color: var(--main-bg-color);
     font-family: "Lato", sans-serif;
     font-weight: 700;
+    /* position: sticky;
+    bottom: 0; */
 }
