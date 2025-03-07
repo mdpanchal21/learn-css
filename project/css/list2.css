@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+ 
+
+/* it is special css file for cards2 div only */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.h2text2{
+    font-family: "Lato", sans-serif;
+}
+.cards2{
+    max-width: 90vw;
+    margin: auto;
+}
+.marh2{
+    margin: 10px 0 0 0;
+}
+.marh4{
+    margin: 10px 0;
+    color: #b2b2b2;
+}
+.card-item2{
+    width: 13vw;
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 15px;
+}
+.card-item2 img{
+    width: 151px;
+}
+.cardlist2{
+    display: flex;
+    overflow: hidden;
+}
+.pmar1{
+    margin: 15px 0;
+}
+.pmar2{
+    margin: 15px 0;
+    color: #388e3c;
+}
